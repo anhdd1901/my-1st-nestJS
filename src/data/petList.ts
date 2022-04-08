@@ -1,37 +1,32 @@
-import { OwnerType, PetType, PetTypeType } from './petList.type';
+import { OwnerType, PetType, PetTypeType, StatusType } from '../pet/pet.type';
 
 export const PET_LIST: PetType[] = [
   {
-    id: '1',
-    type: '1',
-    name: 'Cerbie',
-    description: 'Loyalty',
-    owner: '1',
-    url: 'https://preview.redd.it/49dcdrfevdb41.jpg?auto=webp&s=3a19fe11b40fa6dd389ba9adf3e21be9bdc37568',
-  },
-  {
-    id: '2',
-    type: '1',
-    name: 'Goffy',
-    description: 'Angry',
-    owner: '2',
-    url: 'https://static.wikia.nocookie.net/disney/images/7/7b/Pluto.PNG/revision/latest?cb=20170628205507',
-  },
-  {
-    id: '3',
-    type: '2',
-    name: 'Tom',
-    description: 'Pussy Cat',
-    owner: '3',
-    url: 'https://www.tomandjerrychaseasia.com/m/zt/20200522142810/img/characters/pic/tom_be2af94.png',
-  },
-  {
-    id: '4',
     type: '3',
-    name: 'Jerry',
-    description: 'Smart',
-    owner: '3',
-    url: 'https://upload.wikimedia.org/wikipedia/vi/2/2f/Jerry_Mouse.png',
+    name: 'Mickey',
+    description: 'Fancy',
+    owner: '2',
+    url: 'https://anhdep123.com/wp-content/uploads/2021/03/anh-chuot-mickey.png',
+    id: '8ec0667d-079b-4330-86a1-97e7380735fb',
+    status: StatusType.PLAYING,
+  },
+  {
+    type: '3',
+    name: 'Minnie',
+    description: 'Cute',
+    owner: '2',
+    url: 'https://static.wikia.nocookie.net/disney/images/3/36/Minnie_Mouse_pose_.jpg/revision/latest?cb=20170709133603',
+    id: '058d0adb-73a4-458a-9f37-1a4abbd0b8b2',
+    status: StatusType.PLAYING,
+  },
+  {
+    type: '1',
+    name: 'Goofy',
+    description: 'Navi',
+    owner: '2',
+    url: 'https://static.wikia.nocookie.net/disney/images/2/27/Goofy_transparent.png/revision/latest?cb=20200308081711',
+    id: '7b88b694-7f51-4691-b415-10de3a463120',
+    status: StatusType.PLAYING,
   },
 ];
 
@@ -42,7 +37,7 @@ export const OWNER_LIST: OwnerType[] = [
   },
   {
     id: '2',
-    name: 'Mickey',
+    name: 'Disney',
   },
   {
     id: '3',
